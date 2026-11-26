@@ -6,7 +6,7 @@ def calculate_delivery_cost(city, weight_kg):
     else:
         base_rate = 110.0
 
-    return base_rate + weight_kg * 12.0
+    return base_rate + weight_kg * 15.0
 
 
 def process_standard_invoice(amount, city, weight_kg, tax_rate=0.20):
